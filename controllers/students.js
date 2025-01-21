@@ -6,7 +6,7 @@ import {Student} from '../model/students.js';
 
 export async function createStudent(req, res) {
     const body = req.body;
-    const student = new student(body);
+    const student = new Student(body);
     const createStudent= await student.save();
     res.json(createStudent);
 };
