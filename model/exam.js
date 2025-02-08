@@ -12,5 +12,5 @@ const examSchema= mongoose.Schema({
     }
     
 });
- const Exam = new mongoose.model('exam', examSchema);
+ const Exam = new mongoose.model('Exam', examSchema);
  export {Exam};
